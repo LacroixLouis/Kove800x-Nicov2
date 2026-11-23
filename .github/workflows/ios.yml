@@ -1,0 +1,25 @@
+name: Compiler Double Interface
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: macos-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compiler et tester
+        run: bash scripts/build-ios.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: NicoMirror-non-signe
+          path: build/Double_Interface-non-signee.ipa
+          if-no-files-found: error
+      - name: Conserver les diagnostics de compilation
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: NicoMirror-diagnostics-compilation
+          path: build/check-*
+          if-no-files-found: ignore

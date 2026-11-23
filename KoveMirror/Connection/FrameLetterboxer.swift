@@ -1,0 +1,148 @@
+import Foundation
+import CoreImage
+import CoreVideo
+import VideoToolbox
+import ImageIO
+
+/// High-performance GPU-accelerated frame letterboxer for video streaming.
+/// Adds configurable top and bottom black margins to full-screen video captures
+/// so that motorcycle instrument clusters (speedometer, indicators, etc.)
+/// do not obscure the mirrored screen content.
+/// Also optionally preserves the phone's native screen aspect ratio to eliminate distortion.
+final class FrameLetterboxer {
+    private let ciContext: CIContext
+    private var pixelBufferPool: CVPixelBufferPool?
+    private var currentPoolWidth: Int = 0
+    private var currentPoolHeight: Int = 0
+    private let colorSpace = CGColorSpaceCreateDeviceRGB()
+    private let poolLock = NSLock()
+    
+    init() {
+        self.ciContext = CIContext(options: [
+            .useSoftwareRenderer: false,
+            .cacheIntermediates: false,
+            .priorityRequestLow: false
+        ])
+    }
+    
+    /// Scales and letterboxes `pixelBuffer` into a target frame buffer of size `targetWidth` x `targetHeight`
+    /// with solid black margins at the top (height `topPadding`) and bottom (height `bottomPadding`).
+    /// If `keepAspectRatio` is true, maintains the aspect ratio of the phone screen and centers it within the available area.
+    func letterbox(
+        pixelBuffer: CVPixelBuffer,
+        targetWidth: Int,
+        targetHeight: Int,
+        topPadding: Int,
+        bottomPadding: Int,
+        keepAspectRatio: Bool = false,
+        framing: BroadcastFraming = .fullScreen,
+        orientation: CGImagePropertyOrientation = .up
+    ) -> CVPixelBuffer? {
+        guard targetWidth > 0, targetHeight > 0 else { return nil }
+        let top = max(0, min(topPadding, targetHeight / 2))
+        let bottom = max(0, min(bottomPadding, targetHeight / 2))
+        
+        var inputImage = CIImage(cvPixelBuffer: pixelBuffer).oriented(orientation)
+        inputImage = inputImage.transformed(by: CGAffineTransform(
+            translationX: -inputImage.extent.minX, y: -inputImage.extent.minY))
+        switch framing {
+        case .fullScreen: break
+        case .window(let crop):
+            guard let bounds = crop.pixelBounds(sourceWidth: Int(inputImage.extent.width),
+                                                 sourceHeight: Int(inputImage.extent.height)) else { return nil }
+            let rect = CGRect(x: CGFloat(bounds.left), y: CGFloat(bounds.bottomOriginY),
+                              width: CGFloat(bounds.width), height: CGFloat(bounds.height))
+            inputImage = inputImage.cropped(to: rect).transformed(by: CGAffineTransform(
+                translationX: -rect.minX, y: -rect.minY))
+        case .invalid: return nil
+        }
+        let srcWidth = inputImage.extent.width
+        let srcHeight = inputImage.extent.height
+        guard srcWidth > 0, srcHeight > 0 else { return nil }
+        
+        let availableHeight = max(10, CGFloat(targetHeight - top - bottom))
+        
+        let scaleX: CGFloat
+        let scaleY: CGFloat
+        let offsetX: CGFloat
+        let extraY: CGFloat
+        
+        if keepAspectRatio {
+            let scale = min(CGFloat(targetWidth) / CGFloat(srcWidth), availableHeight / CGFloat(srcHeight))
+            scaleX = scale
+            scaleY = scale
+            let contentWidth = CGFloat(srcWidth) * scale
+            let contentHeight = CGFloat(srcHeight) * scale
+            offsetX = (CGFloat(targetWidth) - contentWidth) / 2.0
+            extraY = (availableHeight - contentHeight) / 2.0
+        } else {
+            scaleX = CGFloat(targetWidth) / CGFloat(srcWidth)
+            scaleY = availableHeight / CGFloat(srcHeight)
+            offsetX = 0
+            extraY = 0
+        }
+        
+        // 2. Scale image content
+        let scaledImage = inputImage.transformed(by: CGAffineTransform(scaleX: scaleX, y: scaleY))
+        
+        // 3. Shift content to its destination position:
+        // In Core Image coordinate space (origin at bottom-left):
+        // X shifts by offsetX (centers horizontally)
+        // Y shifts by bottom + extraY (respects bottomPadding + centers vertically within availableHeight)
+        let offsetY = CGFloat(bottom) + extraY
+        let translatedImage = scaledImage.transformed(by: CGAffineTransform(translationX: offsetX, y: offsetY))
+        
+        // 4. Create solid black background covering the complete destination frame
+        let targetRect = CGRect(x: 0, y: 0, width: CGFloat(targetWidth), height: CGFloat(targetHeight))
+        let blackBackground = CIImage(color: CIColor.black).cropped(to: targetRect)
+        
+        // 5. Composite content over the black letterbox background
+        let finalImage = translatedImage.composited(over: blackBackground)
+        
+        // 6. Obtain or allocate a reusable destination buffer from the pool
+        guard let outputBuffer = getOrCreatePixelBuffer(width: targetWidth, height: targetHeight) else {
+            return nil
+        }
+        
+        // 7. Render directly into the destination CVPixelBuffer via GPU
+        ciContext.render(finalImage, to: outputBuffer, bounds: targetRect, colorSpace: colorSpace)
+        
+        return outputBuffer
+    }
+    
+    private func getOrCreatePixelBuffer(width: Int, height: Int) -> CVPixelBuffer? {
+        poolLock.lock()
+        defer { poolLock.unlock() }
+        
+        if pixelBufferPool == nil || currentPoolWidth != width || currentPoolHeight != height {
+            currentPoolWidth = width
+            currentPoolHeight = height
+            pixelBufferPool = nil
+            
+            let poolAttrs = [kCVPixelBufferPoolMinimumBufferCountKey as String: 3] as CFDictionary
+            let pixelAttrs: [String: Any] = [
+                kCVPixelBufferPixelFormatTypeKey as String: Int(kCVPixelFormatType_32BGRA),
+                kCVPixelBufferWidthKey as String: width,
+                kCVPixelBufferHeightKey as String: height,
+                kCVPixelBufferIOSurfacePropertiesKey as String: [:] as CFDictionary,
+                kCVPixelBufferCGImageCompatibilityKey as String: true,
+                kCVPixelBufferCGBitmapContextCompatibilityKey as String: true
+            ]
+            
+            var newPool: CVPixelBufferPool?
+            let status = CVPixelBufferPoolCreate(kCFAllocatorDefault, poolAttrs, pixelAttrs as CFDictionary, &newPool)
+            guard status == kCVReturnSuccess, let createdPool = newPool else {
+                return nil
+            }
+            self.pixelBufferPool = createdPool
+        }
+        
+        guard let pool = pixelBufferPool else { return nil }
+        var outputBuffer: CVPixelBuffer?
+        let status = CVPixelBufferPoolCreatePixelBuffer(kCFAllocatorDefault, pool, &outputBuffer)
+        guard status == kCVReturnSuccess, let buffer = outputBuffer else {
+            return nil
+        }
+        return buffer
+    }
+}

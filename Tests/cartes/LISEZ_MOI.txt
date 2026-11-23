@@ -1,0 +1,1 @@
+CARTE_TEST_UNIQUEMENT_NON_NAVIGABLE.mbtiles : jeu de tuiles raster fictives destiné à vérifier l’import et l’affichage hors ligne. Aucun fond routier ni données géographiques ! Ne jamais utiliser pour naviguer. Transférer ce fichier vers Fichiers sur iPhone, puis Double Interface > OsmAnd > Configurer > Importer une carte .mbtiles. Couper Internet et afficher la grille test.

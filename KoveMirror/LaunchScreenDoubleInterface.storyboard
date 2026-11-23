@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="dark" />
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505" />
+        <capability name="Safe area layout guides" minToolsVersion="9.0" />
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0" />
+    </dependencies>
+    <scenes>
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852" />
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" />
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StartupLogoV2" translatesAutoresizingMaskIntoConstraints="NO" id="abc-12-def">
+                                <rect key="frame" x="35.5" y="265" width="322" height="322" />
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.027451" green="0.074510" blue="0.121569" alpha="1" colorSpace="custom" customColorSpace="sRGB" />
+                        <constraints>
+                            <constraint firstItem="abc-12-def" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="rivet-center-x" />
+                            <constraint firstItem="abc-12-def" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="rivet-center-y" />
+                            <constraint firstItem="abc-12-def" firstAttribute="width" constant="322" id="rivet-icon-width" />
+                            <constraint firstItem="abc-12-def" firstAttribute="height" constant="322" id="rivet-icon-height" />
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder" />
+            </objects>
+            <point key="canvasLocation" x="53" y="375" />
+        </scene>
+    </scenes>
+    <resources>
+        <image name="StartupLogoV2" width="1024" height="1024" />
+    </resources>
+</document>

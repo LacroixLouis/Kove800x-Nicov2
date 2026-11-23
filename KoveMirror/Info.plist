@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DoubleInterfaceAutomaticWiFiJoinEnabled</key>
+	<true/>
+	<key>CFBundleDisplayName</key>
+	<string>Double Interface</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.nicolasrivet.NicoMirror</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>nicomirror</string>
+			</array>
+		</dict>
+	</array>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Double Interface utilise le Bluetooth pour se connecter au compteur de ta Kove et préparer la diffusion.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Double Interface utilise le Bluetooth pour se connecter au compteur de ta Kove.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Double Interface utilise la caméra pour lire le QR code Wi-Fi du compteur.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Double Interface envoie la petite carte au compteur de ta Kove par le Wi-Fi local.</string>
+	<key>UIRequiresPersistentWiFi</key>
+	<true/>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>La position permet de suivre le trajet et de transmettre la vitesse, l’altitude et les consignes au compteur, y compris pendant un trajet écran verrouillé.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>La position permet de suivre la trace, d’utiliser la carte et de partager un point GPS lorsque tu le demandes.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>location</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreenDoubleInterface</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array/>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>Trace GPX</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSHandlerRank</key>
+			<string>Alternate</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>com.doubleinterface.gpx</string>
+				<string>public.xml</string>
+			</array>
+		</dict>
+	</array>
+	<key>UTImportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>com.doubleinterface.gpx</string>
+			<key>UTTypeDescription</key>
+			<string>GPS Exchange Format</string>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.xml</string>
+			</array>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>gpx</string>
+				</array>
+				<key>public.mime-type</key>
+				<array>
+					<string>application/gpx+xml</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+</dict>
+</plist>

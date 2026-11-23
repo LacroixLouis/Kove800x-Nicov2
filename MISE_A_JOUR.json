@@ -1,0 +1,1189 @@
+{
+  "version": "23NOV-GARAGE-FACTURES-PROPRIETAIRE-v1",
+  "files": [
+    {
+      "path": "KoveMirror/Assets.xcassets/AccentColor.colorset/Contents.json",
+      "sha256": "2293893ffb8dd96acf2f09ac7d7bb6792c24e949930266c3370145b5c3544833",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "ff5abc9e4904efcdd0b19fa45a539251112f3089c56be45861978b82edadbaaf",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Assets.xcassets/AppIcon.appiconset/icon_1024.png",
+      "sha256": "572bfc417e3806c6d626960d21f0b0b8f30ea3c12e90999bc6001a2a3128e916",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Assets.xcassets/Contents.json",
+      "sha256": "0fd49ba3c3585c709678e0046a821c3c60685ec7063720d30d3a3448be3a208b",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Connection/BackgroundKeepAliveManager.swift",
+      "sha256": "eef621a0287f65b5ed3f8699e6534791a2316d87da782e4bfa509cdea08d6a69",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Connection/BleController.swift",
+      "sha256": "b01f9d2ebcb684c1ebd881074f8194f56e093316cafb5cbac69631f7238bc5b7",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Connection/FrameLetterboxer.swift",
+      "sha256": "20372e5b05c865bb85e32e62fccf8786c103a294de6241faa2d59badb431e40f",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Connection/H264Encoder.swift",
+      "sha256": "1d1f7e2f6f696c0afcd208e9820207b7d6bd4b63e6b30b8950491df0e00c9917",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Connection/HandlebarKeyManager.swift",
+      "sha256": "cf92315c382a7b4493727604f63211ce3e43338e58aba6b59e0e2bbec53be4dc",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Connection/LocationAndNavigationManager.swift",
+      "sha256": "617ed4eadc908d1bec844ffca403d9a9525d2ca252a900760640947e0675adeb",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Connection/MotorcycleWiFiManager.swift",
+      "sha256": "bdd6686a9e956209d9c51ad8d2f6523fb51ae9001cb6051807791a2fd1c43ff0",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Connection/NavigationSyncManager.swift",
+      "sha256": "f154f6b129f1fdf2a7c2fcdfb196f4c16deedf39578f61d8988218453516f138",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Connection/ProjectionDiagnostics.swift",
+      "sha256": "ffd82ef1816b1a8ba5dd0d4e67160c80d22f1c58bf6aa9cb7e82def6c7479de0",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Connection/TcpServerManager.swift",
+      "sha256": "b1944d866ef48d9b063e95e4a89449813c334b414b897fab04e8f07192106bfc",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Connection/TelemetrySyncManager.swift",
+      "sha256": "678e460a2e86e588d684707f6943cc614526deb4f8657d82718d7d35937b526a",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Connection/WebPanelStream.swift",
+      "sha256": "c743ea2842fd911ce0fd846737be8da64a28822e61f75755ea0bc89c415a0db6",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/ConnectionStatusView.swift",
+      "sha256": "ebad8722c8aae8ae92bb52877e5d797c281169092d60678965556e117b85431a",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Info.plist",
+      "sha256": "a0a8db456fcf2afe708101dbdbed0eb89a1cdfb878fa969496907aae7d3f7ae0",
+      "mode": "merge_app_branding"
+    },
+    {
+      "path": "KoveMirror/KoveMirror.entitlements",
+      "sha256": "2ecec507a718ec2582106221eb6f5cc44d32f2dd67fae5689336481025da6d16",
+      "mode": "configure_hotspot"
+    },
+    {
+      "path": "KoveMirror/KoveMirrorApp.swift",
+      "sha256": "cb3c23d10cd94eee3b132f9fee36f599cb75d16c74b8f44d518d7d827cbf1e69",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Localizable.xcstrings",
+      "sha256": "90546f92d4c5f6084230af08fe20ba6861a262cb110b377378b582ac3a23bf8f",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Navigation/DestinationSearchSheet.swift",
+      "sha256": "b0b03b8a07c3fe499a4f054a8e48775b0cdbb925deb74ef5731c5731268ef0a6",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Navigation/IntegratedNavigationPanel.swift",
+      "sha256": "f454319e72a03ff5336267f53a1eb0ba67f27e0cc62ba40dc3eeca7eb53ee9c6",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Navigation/TrackLibrary.swift",
+      "sha256": "ef0e3cd32b276dce65b561b9c99757c544caaedbe8653f4c3469be312858b436",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Navigation/TrailMapCanvas.swift",
+      "sha256": "5264ac43a8c07c6015d7bb4a0d3a54047f2d9a7436c1afbb2fd948d7280b01b7",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Navigation/TrailRecorder.swift",
+      "sha256": "1570e1219ba573190740d9341c13c11afc889303986653a6c2470501bef3f94e",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/PrivacyInfo.xcprivacy",
+      "sha256": "2b4360a54f9eed1051b8dacc51f0412422b51f43220c53227f62c716027271cd",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/ProjectionPreparationView.swift",
+      "sha256": "b5f85361cb45f9773bdeaa601c9100908bd22f07698ac0308e5f83c378ae6679",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/RideTheme.swift",
+      "sha256": "d2c39ed94fce9d5422a7bd9a02839737e0a7b97fe0e34e8e9805cfd6bdc6e165",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/RivetCockpitTheme.swift",
+      "sha256": "d899fbd1865c3290e5c4da5f3e0e106cfac21f66ce0a2c3bb301a1545615c452",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/SetupViews/AnnexBResynchronizer.swift",
+      "sha256": "bea6f663cdc6c600ea87c2411ff854ed86a9668e21642bf5f0306a436bb6a893",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/SetupViews/GPXTrack.swift",
+      "sha256": "249f09debb2044f5ae5f991f03b500c71b3fd998f76e8e4ab7dcb11c02338b64",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/SetupViews/KoveScreenPreset.swift",
+      "sha256": "b33fc3d00621922b99531a0e0e60fedff444f8e6906a9963175c5fd9fa6e77fa",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/SetupViews/MotorcycleDistances.swift",
+      "sha256": "9e6dafb26601caec6d9a29aaf094b7575b5cda645e766c9ff38ad38a7abd9102",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/SetupViews/MotorcycleWiFiCredentials.swift",
+      "sha256": "099c1b96e3318f05b62da5dc8a5b40ee343cc634e60ba96aa567107c814ee971",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/SetupViews/NewlinePacketBuffer.swift",
+      "sha256": "2076268b84fedc2a930baff0cf2352faf99c09eb01e25047eff7052239476bd1",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/SetupViews/ProjectionPolicy.swift",
+      "sha256": "e9d0caa1d42bb20317b75bcb6aa8ac2df33f023e904c76f580a4da31a01fc8a4",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/SetupViews/QRCodeScannerView.swift",
+      "sha256": "57a42654630c39c28ee1bfa51e921feffe75d7347247436896645014c5638238",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/SetupViews/QRScannerSheet.swift",
+      "sha256": "db9c59076e99c292588ab0456be54f18ab1925254aca37f7324b7abb5006d650",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/SetupViews/TFTConnectionPolicy.swift",
+      "sha256": "d4a38bd54120e57176fd78594bdb2433545c13b1895e9a9afab9efeeb6505dd1",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/SetupViews/WebPanelLayout.swift",
+      "sha256": "2d7a0390d9e9d2bf70b60fbca99f4494a11b83c01779849c65317072c28393f9",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Shortcuts/KoveShortcuts.swift",
+      "sha256": "2d0db5442f2cebd287abd27801ec57811b7c0cc8ea359137e31db4fdf92b6d7a",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/ThirdPartyNotices.txt",
+      "sha256": "8c1b64d7e08e0262a107fd4f32a75407e85499fb71b6d86a8a0da6f0e471fb3d",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/WebCockpitSession.swift",
+      "sha256": "b01e5c77f7964ace3cfddd98fb7debcda79524f411ffa59b55dbf3ff97c79a4a",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/WebCockpitView.swift",
+      "sha256": "0c22c7f5de390e42fde488b743287cc6f883e10aec09ce64ac64dc4448bf231f",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirrorTests/FrameLetterboxerTests.swift",
+      "sha256": "e5836c9ec368527291feddd80712b461a85b47886718c307df6f568f4e0f38f7",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirrorTests/KoveMirrorTests.swift",
+      "sha256": "cda83cce143efca498058583f52d29913a6ec78714d98a2b1ebb5e825dec9083",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirrorUITests/KoveMirrorUITests.swift",
+      "sha256": "d564027f61f026aa13e58286c487691e2d4ba2c0993bfcfe532402c814ecdb4d",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirrorUITests/KoveMirrorUITestsLaunchTests.swift",
+      "sha256": "c54b03e6f3348c660c73283fff1dc43e3f8e150f3538acdf2a33743e5db07f44",
+      "mode": "copy"
+    },
+    {
+      "path": "Mettre_a_jour_sur_Mac.command",
+      "sha256": "5986a5a0c80b2ea8f73a4ccb09f087e10ffe4a9d9cbcd9e2a5f90db58978f7ee",
+      "mode": "copy",
+      "executable": true
+    },
+    {
+      "path": "Package.swift",
+      "sha256": "45327958ad0b850a2642decde21faa47c42c1856539ab50f69d90273cdaa627b",
+      "mode": "copy"
+    },
+    {
+      "path": "Photos_des_ecrans.command",
+      "sha256": "c88592c07dbe3c6791b2f09c08ba42d9e7085cdc038222697b36a89d7e16e3f0",
+      "mode": "copy",
+      "executable": true
+    },
+    {
+      "path": "README.md",
+      "sha256": "12fb7408efdec82e8b68dc04ed7e1fa37d0918facbd1a4a057c2fb79e77f5f3c",
+      "mode": "copy"
+    },
+    {
+      "path": "Tests/Connection/AnnexBResynchronizerTests.swift",
+      "sha256": "72ff618417b1ab3d372152b41df61472fb2887328d8c4df22542a566a55bd3a0",
+      "mode": "copy"
+    },
+    {
+      "path": "Tests/Connection/GPXTrackTests.swift",
+      "sha256": "ad1ebbfe7cc8e615c7f2666b7db58eb5c301f8c780afcbab6df277bf4cc79699",
+      "mode": "copy"
+    },
+    {
+      "path": "Tests/Connection/MotorcycleWiFiCredentialsTests.swift",
+      "sha256": "54e68d76679273cc4c4e219cb3a49551649cc372954bc004062df027f3305321",
+      "mode": "copy"
+    },
+    {
+      "path": "Tests/Connection/NewlinePacketBufferTests.swift",
+      "sha256": "928274ec0547e4cb6718e429f5496af8f95dfbc14e7e52060831cdb847da9185",
+      "mode": "copy"
+    },
+    {
+      "path": "Tests/Connection/ProjectionPolicyTests.swift",
+      "sha256": "dec8a35e71f74fb287297c4792be159cac86c6abc79379a3ac7b8140aea45c92",
+      "mode": "copy"
+    },
+    {
+      "path": "Tests/Connection/ScreenCropTests.swift",
+      "sha256": "efbca58eb6b660fe40c159b24a76a2f26332f160210a5086cdeefd7640a44bc5",
+      "mode": "copy"
+    },
+    {
+      "path": "Tests/Connection/TFTConnectionPolicyTests.swift",
+      "sha256": "c069e7d067e30c2faf23b77a4f866c5da2db151f4858138111a1a642b1f9f4b3",
+      "mode": "copy"
+    },
+    {
+      "path": "scripts/build-and-install.sh",
+      "sha256": "5d2adacd01225c09cd57391735cf33c83ee9e111b382d4e96fd1293f703a6ffa",
+      "mode": "copy",
+      "executable": true
+    },
+    {
+      "path": "scripts/build-ios.sh",
+      "sha256": "c7c95ce804736cfed0c2086f27d54b51590c91ed48d51e76b8201d90eb4253ef",
+      "mode": "copy",
+      "executable": true
+    },
+    {
+      "path": "scripts/check-mac.sh",
+      "sha256": "0b4c406c563e968508031b652215e076dcec29d38e9a3d8dd12bfd5047b5d0ac",
+      "mode": "copy",
+      "executable": true
+    },
+    {
+      "path": "scripts/prepare-screenshot-scheme.py",
+      "sha256": "2898b38a7ba2500f0901ee2bc19059649be6a648c8499ac3b5d68fcdc4d68e5d",
+      "mode": "copy"
+    },
+    {
+      "path": "scripts/tests/test_project_update.py",
+      "sha256": "134660ca10d0bbee6034ca483778f42177bbc3ddba799f654413f4b3fab0af14",
+      "mode": "copy"
+    },
+    {
+      "path": "scripts/update-project.py",
+      "sha256": "1ab95b3b33f421a68fd9e89947b00ceb606efab7221b32f6a0cc2c8464120239",
+      "mode": "copy"
+    },
+    {
+      "path": "scripts/xcode_project.py",
+      "sha256": "64a68d20ffbd8b3d0951283ff4c7793acc6ee940a33d82d27c4d40bc43f1e047",
+      "mode": "copy"
+    },
+    {
+      "path": "Tests/Connection/MiniatureBoundsTests.swift",
+      "sha256": "71d5f8d8767ea99716873259e2fe5052746218efc3888c3c6afb9600b28859f3",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/SetupViews/GPXRouteGuidance.swift",
+      "mode": "copy",
+      "sha256": "8829b0585a4308cf42e6cb006277bee84aea07f9424f08a3eebfe0419b078308"
+    },
+    {
+      "path": "Tests/Connection/GPXRouteGuidanceTests.swift",
+      "mode": "copy",
+      "sha256": "d7cd1096ab6f51ac856b768722c00599a47c40aa64aa65250fe861cce79abbf2"
+    },
+    {
+      "path": "KoveMirror/SetupViews/RoadRouteProgress.swift",
+      "sha256": "faa317dda799b7db4c468ed2efc55ce5a7d9f36dae8dd839de07affe1ddf1923",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/SetupViews/GPXAlertPolicy.swift",
+      "sha256": "500eb83bbb15ecc5c6b7cb8401b3da3a7fd7ef44ee2be6ee066183cc716824b9",
+      "mode": "copy"
+    },
+    {
+      "path": "Tests/Connection/RoadRouteProgressTests.swift",
+      "sha256": "949e5853e5be2741fe45864fcd08fa81e54b2661b3bae530245a38d3a4d1498d",
+      "mode": "copy"
+    },
+    {
+      "path": "Tests/Connection/GPXAlertPolicyTests.swift",
+      "sha256": "93bf1622781d3dd47e5a24e983048a39becf857927510e12eb5685b296eb15f9",
+      "mode": "copy"
+    },
+    {
+      "path": "Tests/Connection/TFTFrameRatePolicyTests.swift",
+      "sha256": "67c56846c74695c68e72dca7b0afa75a2be51f7b4c6e01c6d83b76dead261a2c",
+      "mode": "copy"
+    },
+    {
+      "path": "scripts/lancer-batterie-tests.sh",
+      "sha256": "29ef21b05e946ddebd381248652657ba1ed8ed1558dd3c94d8b06206bf8d1cf1",
+      "mode": "copy",
+      "executable": true
+    },
+    {
+      "path": "LANCER_BATTERIE_TESTS.command",
+      "sha256": "7c37c6ad757047127d2d4f4b3643ac5a3a6985fbc1c1a9a4f9f2bd9f50106a52",
+      "mode": "copy",
+      "executable": true
+    },
+    {
+      "path": "KoveMirror/SetupViews/LockedRidePolicy.swift",
+      "sha256": "ef14583b621df2ddcbb41203ca8301b228de8a357ae336af46f4dd8663d886a4",
+      "mode": "copy"
+    },
+    {
+      "path": "Tests/Connection/LockedRidePolicyTests.swift",
+      "sha256": "8fabec3c13c8387f337ec8cf84e51c77eecd8a024192c8993e123da4ff8b00bf",
+      "mode": "copy"
+    },
+    {
+      "path": "scripts/tests/test_visual_redesign.py",
+      "sha256": "3020804f45c80940361cb0050015588ddd4e67da7e28966ee5cae36a3267b405",
+      "mode": "copy"
+    },
+    {
+      "path": "scripts/tests/test_locked_gps_latency.py",
+      "sha256": "99aacdd0e6dcc45cd27afd9479408196bee626e111ec2c92ee11638c491ba990",
+      "mode": "copy"
+    },
+    {
+      "path": "Tests/Connection/WebPanelLayoutTests.swift",
+      "sha256": "4fbf2db7882d469776e9226520730df34878d40e2b710ded0c2d075fff398905",
+      "mode": "copy"
+    },
+    {
+      "path": "scripts/tests/test_map_name_overlay.py",
+      "sha256": "a0f9a2e4f3de6f779d9b5f285d6392b208ccadeddbd0d5b72987a6f35c6985ad",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Navigation/OsmondTopoOnline.swift",
+      "mode": "copy",
+      "sha256": "cd4a6279886afe5a04edbe52a9f2f6cbb526126edeb14efd4a67c799614cf60d"
+    },
+    {
+      "path": "scripts/tests/test_osmond_topography.py",
+      "mode": "copy",
+      "sha256": "5339cf647969174739bb3ab02bff42cd22a8b0e94b588d3015441f244ae2e12b"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "merge_gitignore",
+      "sha256": "9ebe51fbd21f053e89a498d71cf85b04df60116ac9de568d02ae910c51321b7d"
+    },
+    {
+      "path": "PRIVACY_POLICY.md",
+      "mode": "copy",
+      "sha256": "d3ddb52c797b17830f49f44d86f5848913fed3d69f7f39fc88bed8fb577d3835"
+    },
+    {
+      "path": "Backend/wize_community.sql",
+      "mode": "copy",
+      "sha256": "5c42a12cef38d5ffce69428abea20dbd8e63abc8237353474d3c0f66aab883d8"
+    },
+    {
+      "path": "Tests/Connection/WizeTrafficTests.swift",
+      "mode": "copy",
+      "sha256": "0ccc0581e3d3bda3121cf4b1875beeb03f3f406d3c59d6c494c01dea7fd931da"
+    },
+    {
+      "path": "scripts/tests/test_startup_regression.py",
+      "mode": "copy",
+      "sha256": "0b183be70d62cfdd6c559c506c3d4718bce67dd027fdd0c04d8da3e029fa673d"
+    },
+    {
+      "path": "KoveMirror/FranceSafetyZones.json",
+      "mode": "copy",
+      "sha256": "fdb527a6b21ae6f101b7768d7c3b399fdba0e3005d912ccf39ac7783cecbe0a6"
+    },
+    {
+      "path": "KoveMirror/LaunchScreenDoubleInterface.storyboard",
+      "mode": "copy",
+      "sha256": "eeecbfe86345b452a83d1d71ca4c306b5a94850a07e9a44f4d9f74536862a862"
+    },
+    {
+      "path": "KoveMirror/TomTomTraffic.plist",
+      "mode": "preserve_service_settings",
+      "sha256": "8b7a2c81fee9f3ab68bfd480e714f149d0f796cbf8af149b41d758d2c83fcc41"
+    },
+    {
+      "path": "KoveMirror/WizeCommunity.plist",
+      "mode": "preserve_service_settings",
+      "sha256": "ccb44ee7e184a2b1dbe9c409259694a1e6acc6c5bf3cc1c2fc742ddbd655196e"
+    },
+    {
+      "path": "KoveMirror/Navigation/WizeSafetyZones.swift",
+      "mode": "copy",
+      "sha256": "101ebc384a76d0d55e219caf62dab2eb2dbaf441fe36e0653a0e0e3fe58ec31b"
+    },
+    {
+      "path": "KoveMirror/Navigation/TomTomTrafficOverlay.swift",
+      "mode": "copy",
+      "sha256": "73950e0579e5e426c899da94e6e1c7dd9b2b3a4dc0428292563e3693c732ec6a"
+    },
+    {
+      "path": "KoveMirror/Navigation/WizeCommunityService.swift",
+      "mode": "copy",
+      "sha256": "92ef8bd3429055138ee2c1b3ab6b1b126e0a4ed0579ca8b60421e547140f77b6"
+    },
+    {
+      "path": "KoveMirror/Navigation/WizeSignalsSheet.swift",
+      "mode": "copy",
+      "sha256": "bee65e2bf68f377fd07efda0e3038a31dcc9baf988220cc10c49a8f5cb28d2cd"
+    },
+    {
+      "path": "KoveMirror/Navigation/WizeTrafficService.swift",
+      "mode": "copy",
+      "sha256": "44bca42b23cf56b14513fc5b3471290c4fd3c4d5f202ccac90f023687c0ab47e"
+    },
+    {
+      "path": "KoveMirror/Navigation/OfflineMBTiles.swift",
+      "mode": "copy",
+      "sha256": "8e39e6ac069c379ff28da71b6caa2b68308364a8066f914a47078b5de9b8cc82"
+    },
+    {
+      "path": "KoveMirror/SetupViews/WizeCommunityModels.swift",
+      "mode": "copy",
+      "sha256": "ce3bd665dda63279be68e5c1e54e917fb225b69a0f4a12b89ebd3b0b48fcc08d"
+    },
+    {
+      "path": "KoveMirror/SetupViews/OfflineTileGrid.swift",
+      "mode": "copy",
+      "sha256": "e16da8b3392ef23ee7b68c65a2f09acb832118fac9f364faeca6934ff5ceefc2"
+    },
+    {
+      "path": "KoveMirror/SetupViews/TomTomTrafficModels.swift",
+      "mode": "copy",
+      "sha256": "739a2547a09c4f60b1b089c762f1443ff7bbdb9ccefe726d238e3b04a5d7cdac"
+    },
+    {
+      "path": "KoveMirror/Assets.xcassets/StartupLogoV2.imageset/startup_logo_v2.png",
+      "mode": "copy",
+      "sha256": "47312e4de94ce057bdb9c87d9b72f03a0d9411ac236d029fd47a647c5da1272b"
+    },
+    {
+      "path": "KoveMirror/Assets.xcassets/StartupLogoV2.imageset/Contents.json",
+      "mode": "copy",
+      "sha256": "9e504a10e15c06249533974106d8c8cb84c887a43fab9c2f01a106bbc91d9593"
+    },
+    {
+      "path": "KoveMirror/Assets.xcassets/MountainGreenWhite.imageset/Contents.json",
+      "mode": "copy",
+      "sha256": "57ec308bd44d4db94b802c42697a40672cfea9caf1900d37f9bb832f481152a5"
+    },
+    {
+      "path": "KoveMirror/Assets.xcassets/MountainGreenWhite.imageset/mountain_green_white.png",
+      "mode": "copy",
+      "sha256": "ca1aa67c6ef5f104a8705b231beb6b377cbd25dcc9e74cf6762cab477d8ce820"
+    },
+    {
+      "path": "KoveMirror/Navigation/NavigationPositionMarker.swift",
+      "mode": "copy",
+      "sha256": "11d6c1b80f0f4c57dd34ce3c46a3be43cc40bfcbe847f0477709d9468aa45b9b"
+    },
+    {
+      "path": "Backend/wukuluc_routes.sql",
+      "mode": "copy",
+      "sha256": "d245b70ccb2c598a8c9d0486bba8550585d619e510f93d6f3a465c92285c6cbe"
+    },
+    {
+      "path": "Backend/test_wukuluc_routes.sql",
+      "mode": "copy",
+      "sha256": "03e19dd6b4e5274b4d5fba62ad61464f43b96f6a1cfa4b4391107980b9da750c"
+    },
+    {
+      "path": "KoveMirror/SetupViews/WukulucSharedModels.swift",
+      "mode": "copy",
+      "sha256": "14782b9d7092b75e282669ff798e1cbbfd0a8b30edca5ed13a618170f0fadcc4"
+    },
+    {
+      "path": "KoveMirror/Navigation/WukulucSharingService.swift",
+      "mode": "copy",
+      "sha256": "9cd179c05cf65578e1729b80740bdaea44a512611517067dc1d203266a2b9be7"
+    },
+    {
+      "path": "KoveMirror/Navigation/WukulucRouteViews.swift",
+      "mode": "copy",
+      "sha256": "e439c2eff5a5aaadaf0c930af3ff4d820aa55791eedd6306b0092596ab90c79a"
+    },
+    {
+      "path": "KoveMirror/Navigation/WukulucRouteDetail.swift",
+      "mode": "copy",
+      "sha256": "bacb9e94cd55b1e8c87e10f266f669802f3a1784292335946ab9f75c90879f05"
+    },
+    {
+      "path": "KoveMirror/Navigation/WukulucWorkspaceView.swift",
+      "mode": "copy",
+      "sha256": "f68bfeaa4f58eadf2ca6628d09af9990a9497d9d73ea14abe90cbe3a3e1968e3"
+    },
+    {
+      "path": "Tests/Connection/WukulucSharingTests.swift",
+      "mode": "copy",
+      "sha256": "737a4bd669780698cda28248dc1221033d659ed3c98745814a20212545d2f569"
+    },
+    {
+      "path": "KoveMirror/SetupViews/GPXAccessTarget.swift",
+      "mode": "copy",
+      "sha256": "6c3cf21173d9cd9ad54f49849307e782a16857a81d9d9872d5182efa61073c40"
+    },
+    {
+      "path": "KoveMirror/Navigation/GPXAccessManager.swift",
+      "mode": "copy",
+      "sha256": "c82863e3a7694bde752d7f09c502c703c3cb235e27152a818abba9dd86f47274"
+    },
+    {
+      "path": "KoveMirror/Navigation/GPXAccessRendering.swift",
+      "mode": "copy",
+      "sha256": "f7ad7d71dfd6d0f296a2972f1e917f65430f6d706ca37fa1531ffdcabd5b4f28"
+    },
+    {
+      "path": "Tests/Connection/GPXAccessTests.swift",
+      "mode": "copy",
+      "sha256": "4a55799bb37b3d362329fe1cdced77489e0e958b07b2b47eb032313729f9cfca"
+    },
+    {
+      "path": "Kove broadcast extension/PrivacyInfo.xcprivacy",
+      "mode": "copy",
+      "sha256": "96a3a3712b4d648c911695babe81c52a3a2b78eb1ee546792eb168559db0d83d"
+    },
+    {
+      "path": "Tests/Connection/OfflineTileGridTests.swift",
+      "mode": "copy",
+      "sha256": "2985e8524e2220eb582c7ef5eee89013d6a31e4186125cf333be457bf00741fb"
+    },
+    {
+      "path": "Tests/cartes/CARTE_TEST_UNIQUEMENT_NON_NAVIGABLE.mbtiles",
+      "mode": "copy",
+      "sha256": "2404302ea7bffd59e04adac0bc88fb794e3c60c1071caf71b5cfacd7a9dc87e7"
+    },
+    {
+      "path": "Tests/cartes/LISEZ_MOI.txt",
+      "mode": "copy",
+      "sha256": "c2a3ed4f124d97dce5cc5d628ea75b98c1023c176444f4364a34703fd4a6bd3e"
+    },
+    {
+      "path": "scripts/tests/test_project_structure.py",
+      "mode": "copy",
+      "sha256": "52fbfafeaa1cbc8655d6ef8872e52d9e8a2ab66a0e4fd307f746b7b3e8c90f9f"
+    },
+    {
+      "path": "Kove broadcast extension/DoubleInterfaceIcon60x60@2x.png",
+      "sha256": "22586337ba81be5c498d75a6aa91aa8611c039723b69dc79cc2a3c824ee19172",
+      "mode": "copy"
+    },
+    {
+      "path": "Kove broadcast extensionSetupUI/DoubleInterfaceIcon60x60@2x.png",
+      "sha256": "22586337ba81be5c498d75a6aa91aa8611c039723b69dc79cc2a3c824ee19172",
+      "mode": "copy"
+    },
+    {
+      "path": "Kove broadcast extension/DoubleInterfaceIcon60x60@3x.png",
+      "sha256": "ecd4c403cc4e761617ead26b5ba9b8cbf78bcecd3954b9a22e3d2e82d7dcb120",
+      "mode": "copy"
+    },
+    {
+      "path": "Kove broadcast extensionSetupUI/DoubleInterfaceIcon60x60@3x.png",
+      "sha256": "ecd4c403cc4e761617ead26b5ba9b8cbf78bcecd3954b9a22e3d2e82d7dcb120",
+      "mode": "copy"
+    },
+    {
+      "path": "Kove broadcast extension/DoubleInterfaceIcon76x76.png",
+      "sha256": "97b6257396ec70bb135de7cf71d117959c469c31c0c2a69960c474583db601de",
+      "mode": "copy"
+    },
+    {
+      "path": "Kove broadcast extensionSetupUI/DoubleInterfaceIcon76x76.png",
+      "sha256": "97b6257396ec70bb135de7cf71d117959c469c31c0c2a69960c474583db601de",
+      "mode": "copy"
+    },
+    {
+      "path": "Kove broadcast extension/DoubleInterfaceIcon76x76@2x.png",
+      "sha256": "96cd7d461bc48404e6f79c4fda89c41ab37452814c1296d8e7874f472d84926a",
+      "mode": "copy"
+    },
+    {
+      "path": "Kove broadcast extensionSetupUI/DoubleInterfaceIcon76x76@2x.png",
+      "sha256": "96cd7d461bc48404e6f79c4fda89c41ab37452814c1296d8e7874f472d84926a",
+      "mode": "copy"
+    },
+    {
+      "path": "Kove broadcast extension/DoubleInterfaceIcon83.5x83.5@2x.png",
+      "sha256": "72cf75097db09ffad96cb0c44bca9ecfd5bbeff4d73613da861de5357d1137d8",
+      "mode": "copy"
+    },
+    {
+      "path": "Kove broadcast extensionSetupUI/DoubleInterfaceIcon83.5x83.5@2x.png",
+      "sha256": "72cf75097db09ffad96cb0c44bca9ecfd5bbeff4d73613da861de5357d1137d8",
+      "mode": "copy"
+    },
+    {
+      "path": "Kove broadcast extension/Info.plist",
+      "sha256": "ec4cc8e23ea8fced3400921d96250c6b15dc69c8f83ead7ad2d0976efdaabf31",
+      "mode": "merge_extension_icons"
+    },
+    {
+      "path": "Kove broadcast extensionSetupUI/Info.plist",
+      "sha256": "78324c5861b5e2a3d779de519c82c937a8e0fa75adfeb29c0365b15dd076dd65",
+      "mode": "merge_extension_icons"
+    },
+    {
+      "path": "NicoMirror.xcodeproj/project.pbxproj",
+      "sha256": "445b1cadec12e6666499129b5bfd1db23aa41a76a87164fd4be53c97920e191f",
+      "mode": "merge_project_resources"
+    },
+    {
+      "path": "KoveMirror/SetupViews/MapCameraFocus.swift",
+      "sha256": "86cc1f3c6796c5636d850f918d66a79491ae854007b96af23346a5447a31657f",
+      "mode": "copy"
+    },
+    {
+      "path": "Tests/Connection/MapCameraFocusTests.swift",
+      "sha256": "6c2e3c771dc15ef90261f13db48b7f3cfc5dd62c488ccacdcf5b6ff907412c04",
+      "mode": "copy"
+    },
+    {
+      "path": "scripts/tests/test_map_position.py",
+      "sha256": "5286ef6e53f51f4ae1eca62d8e46c9e3f451d1c3b08d85759c259e3b1dc81c89",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Navigation/RivmondeRasterFrame.swift",
+      "mode": "copy",
+      "sha256": "63bba7b0e7951ccecc5cc23c4fe00edd28fde8b7bbb8ad7eadc29800072bf3f6"
+    },
+    {
+      "path": "KoveMirrorTests/RivmondeRasterTests.swift",
+      "mode": "copy",
+      "sha256": "ad9f01d8011473e210656cd880b2596503a8504c0d1991e6d049ebd4041fa8e5"
+    },
+    {
+      "path": "scripts/tests/test_bundled_world_relief.py",
+      "mode": "copy",
+      "sha256": "c8860b611aee18e5ab96dde16c1e8a5144c3542ac584cde9104bb01b83683375"
+    },
+    {
+      "path": "KoveMirror/Rivmonde_Monde_Relief_Apercu_v1.mbtiles",
+      "mode": "copy",
+      "sha256": "dcac331b9604b2217cb907870f64e68fc83c1d8ae48e214b4b8de484fb01c942"
+    },
+    {
+      "path": "CORRECTIONS_RIVMONDE_GPS_ZOOM_MENU_23NOV.md",
+      "sha256": "41d03e5f1cf043c3bf00a401508495c174b8ce36783d873734f236fd8ec15d68",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Maintenance/MaintenanceGarage.swift",
+      "sha256": "a76b4d1ddbf2c2267abc30e079be7a391c63da4b835165a93ef88b092bebb937",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirror/Maintenance/MaintenanceViews.swift",
+      "sha256": "cfaa63634380381eeb248e89b4dae0ff232a7ce9c8ca65ce41292cf8174a6bfd",
+      "mode": "copy"
+    },
+    {
+      "path": "scripts/tests/test_invoices_release.py",
+      "sha256": "e0a026f7c0dab3490d77fe6c702a0b2b31765b3648b2aa2fcf5bd6ceab4b9a62",
+      "mode": "copy"
+    },
+    {
+      "path": "KoveMirrorTests/GarageMaintenanceTests.swift",
+      "sha256": "953896d3902bcb7429582dc9e609a38b8e6ca5ca326d6b9f2ae4b5fd3ece49f7",
+      "mode": "copy"
+    }
+  ],
+  "removed_files": [
+    "KoveMirror/About/AboutView.swift",
+    "KoveMirror/About/HelpView.swift",
+    "KoveMirror/AppLanguageView.swift",
+    "KoveMirror/CockpitWeatherWidget.swift",
+    "KoveMirror/Connection/CameraProximityManager.swift",
+    "KoveMirror/DashboardCustomizationView.swift",
+    "KoveMirror/Debugging/EventLogView.swift",
+    "KoveMirror/Debugging/ProjectionDiagnosticCard.swift",
+    "KoveMirror/GPSHubView.swift",
+    "KoveMirror/MaintenanceForms.swift",
+    "KoveMirror/MaintenanceView.swift",
+    "KoveMirror/NativeContainerSupport/ImportedApplicationSession.swift",
+    "KoveMirror/NativeContainerSupport/NativeAppFrameStream.swift",
+    "KoveMirror/NativeContainerSupport/NativeCaptureGate.swift",
+    "KoveMirror/NativeContainerSupport/NativeCaptureObservers.swift",
+    "KoveMirror/Navigation/TrailWorkspaceView.swift",
+    "KoveMirror/NormalButtonStyle.swift",
+    "KoveMirror/PhoneProjectionView.swift",
+    "KoveMirror/SetupViews/CockpitPage.swift",
+    "KoveMirror/SetupViews/CockpitWeather.swift",
+    "KoveMirror/SetupViews/DashboardLayout.swift",
+    "KoveMirror/SetupViews/MotorcycleMaintenance.swift",
+    "KoveMirror/SetupViews/NativeCaptureGateState.swift",
+    "KoveMirror/SetupViews/ProximityTransparentOverlay.swift",
+    "KoveMirror/SetupViews/RivetLanguage.swift",
+    "KoveMirror/SetupViews/SettingsView.swift",
+    "KoveMirror/SetupViews/TFTFrameRatePolicy.swift",
+    "KoveMirrorUploadExtension/H264Encoder.swift",
+    "KoveMirrorUploadExtension/SampleHandler.swift",
+    "KoveMirrorUploadExtension/TcpServerManager.swift",
+    "Tests/Connection/CockpitWeatherTests.swift",
+    "Tests/Connection/DashboardLayoutTests.swift",
+    "Tests/Connection/MotorcycleMaintenanceTests.swift",
+    "Tests/Connection/MotorcycleOdometerTests.swift",
+    "Tests/Connection/NativeCaptureGateStateTests.swift"
+  ],
+  "removed_support_files": [
+    {
+      "path": "ACCES_TRACE_WUKULUC_OSMOND_23NOV.md",
+      "sha256": "bae51ddde87ad9f4e456088f47a31e9892f0f9b15b043e7411b1451822de2230"
+    },
+    {
+      "path": "AMELIORATIONS_OSMOND_TOPO_22NOV.md",
+      "sha256": "21136872996000c55fc49591274bf26f870812d4d2a18d08066f2caa5a6e06e1"
+    },
+    {
+      "path": "ASPECT_VALIDE_21NOV.md",
+      "sha256": "e5b0d27380bab745129ea78ab242bd8960c27c2c54d2fdf1b8e9f935d45d8877"
+    },
+    {
+      "path": "Apercus/01-traces.png",
+      "sha256": "4f3067ec468caf1a17c2435b851283f17f5c8b094b41c9dc4bc72c94e713c22d"
+    },
+    {
+      "path": "Apercus/02-plans.png",
+      "sha256": "19bf8658917ef609b745903df2d22165b96bf81012216073b75e335fd6de82ca"
+    },
+    {
+      "path": "Apercus/03-menu.png",
+      "sha256": "77585d224d80f5a7201c9a69088c61b90ea06065f38f93bd48abf5690a046c2c"
+    },
+    {
+      "path": "Apercus/04-fonds.png",
+      "sha256": "f4b2217bfa49aa3f5474fa26b7196cee3272364cf21a56daac9d3e528a24ff57"
+    },
+    {
+      "path": "Apercus/05-traces-vide.png",
+      "sha256": "fe632f99420ad47f9db98cee6c63c7c7f6fe7f3ca13f45c66d9784d4a1b2e6a2"
+    },
+    {
+      "path": "Apercus/06-traces-importees.png",
+      "sha256": "d3982b4d4554f247ccdd4551de840be4cedc2ac75ee1611d464f2fa62fffba11"
+    },
+    {
+      "path": "Apercus/07-coller.png",
+      "sha256": "28c4a9a605a8a80c0327a279834ad595def1764afed92a1b6606116221bed720"
+    },
+    {
+      "path": "Apercus/08-destination.png",
+      "sha256": "b840a96a1fdb67c5733f0772fb55f4ef3e0970d6f9444863d4df76610bebaae7"
+    },
+    {
+      "path": "Apercus/09-connexion.png",
+      "sha256": "bb31ff28e4276f1742a7488e6ec8b783a52b22f0b03346503a84081436c4d6d7"
+    },
+    {
+      "path": "Apercus/10-memorisee.png",
+      "sha256": "a5bcadcc606ddaedda0ba88315bc3c81a70df4316b04c044dc31fd640af9b5e0"
+    },
+    {
+      "path": "Apercus/11-wifi-manuel.png",
+      "sha256": "e9f1dc1d98dc5024be1041368d1f33793ca41a8b329504b59b9a4d5dc966cf0f"
+    },
+    {
+      "path": "Apercus/12-scanner.png",
+      "sha256": "62b657e1e92d59944caff62966b646456586656e80d9bc5bf16c9e111fb71f93"
+    },
+    {
+      "path": "Apercus/Double_Interface_apercus.png",
+      "sha256": "cb542c81aecc6c7bb9f1b887e41dab884419fb3ef8e92fe42c847c209e9f6b53"
+    },
+    {
+      "path": "Apercus/index.html",
+      "sha256": "7a1ea2442437ba35cdaff71018fa351fcf321c7a8496f35502672bde1dcc01b5"
+    },
+    {
+      "path": "BATTERIE_DE_TESTS_22NOV.md",
+      "sha256": "b8f8234cc1ecb70fc59954ac99eb395a4b7d5d94c0208ddfd002d40abfea9be4"
+    },
+    {
+      "path": "CAHIER_DES_DEMANDES.md",
+      "sha256": "48857f0b125100f0dab5929416c58bd2c077fc442c0c7af1207a308f008c3df3"
+    },
+    {
+      "path": "CHANGEMENTS_NOMS_ET_MOTEURS_21NOV.md",
+      "sha256": "b9c778e96428f5416adb0e2c53034e1aaf48178bf6bc6ec5032a61b1f2b1fc80"
+    },
+    {
+      "path": "CONTROLES_EFFECTUES_22NOV.md",
+      "sha256": "3ee84b6214a56bbee81237b228e24bf6f52156d3e8a27a7bfbaccd3806714363"
+    },
+    {
+      "path": "CONTROLE_APRES_CORRECTION.md",
+      "sha256": "3877b394101ddc7300ea24e2ab6944191ba463a1bd22d1dc2ede1173ad22338d"
+    },
+    {
+      "path": "CONTROLE_MOTO_SANS_MAC_22NOV.md",
+      "sha256": "8840cfa8be09dfbeb0ddd5e951cdb3d9cd87e5154a0fb443ad18e0b3c115772d"
+    },
+    {
+      "path": "CORRECTIF_AVERTISSEMENTS_XCODE_23NOV.md",
+      "sha256": "0f7d1a91c94ae112c8f135f3408286c1bb6894aafd4d5495ef46dc1dc0ad968d"
+    },
+    {
+      "path": "CORRECTIF_BARRES_CHEVAUCHEMENT_22NOV.md",
+      "sha256": "3114027f751830f4bd7a782784f21b385eaaf08ff93bd7e00dfbb9c78d62b47f"
+    },
+    {
+      "path": "CORRECTIF_COMMANDES_AUTO_4S_TFT_21NOV.md",
+      "sha256": "d54a410085657bd5b5e2786498b87beda1514295dab3ba7e4b5aa1348f4756b7"
+    },
+    {
+      "path": "CORRECTIF_COMMUNITYREPORT_22NOV.txt",
+      "sha256": "e3d44b0b3f77f83fdfcebf1f48f640c1cfc84cba2bd870d585ce90c018a120b1"
+    },
+    {
+      "path": "CORRECTIF_COMPILATION_SIGNATURE_22NOV.md",
+      "sha256": "2f0a9787f769dfe09aea4a8c1b49c9f6ccd094b0b2425a6bd1b349d138fd72b8"
+    },
+    {
+      "path": "CORRECTIF_DEMARRAGE_22NOV.md",
+      "sha256": "0b460fc58df69319ff13b539b0a9afe2289533770e8dea76d27aed8a4bcb7ad0"
+    },
+    {
+      "path": "CORRECTIF_ECHANGE_ET_TAILLE_TFT_22NOV.md",
+      "sha256": "94b3ca444ae6699bd94bb244436d527057b94dd45b7c22ab472880aa9f10b52c"
+    },
+    {
+      "path": "CORRECTIF_GPS_ARRET_SON_22NOV.md",
+      "sha256": "3a49773a0ac125c7fc763f314f5a13b3ee4bbecbb466b78129750b95086e420a"
+    },
+    {
+      "path": "CORRECTIF_GPS_VERROUILLE_FLUIDITE_22NOV.md",
+      "sha256": "491fabe1e0ac08ee70ae949409730c5df1be353053d610615bd097de7dcd45a0"
+    },
+    {
+      "path": "CORRECTIF_INTERFACE_20_11_2026.md",
+      "sha256": "2721a51f443d3713ea0d668e4f4a4be78fbea57eda24317ad21b8afcb34a6194"
+    },
+    {
+      "path": "CORRECTIF_LOGO_UNIQUE_BARRE_BLEUE_22NOV.md",
+      "sha256": "9ce95e1c97bc4814d282167594f1609d73b7fa19e847f67e92635ff16d5f1984"
+    },
+    {
+      "path": "CORRECTIF_MENU_HAUT_GAUCHE.md",
+      "sha256": "7da0335fd9b96ce51cb613ea9af5e09229b74bb6119c3e561bce80230448b85a"
+    },
+    {
+      "path": "CORRECTIF_OSMOND_TFT_ECRAN_BLANC_22NOV.md",
+      "sha256": "4e3189a2982e53850ce5fe719bcbc1f67c645a2eb59e3080f35273c44660d9bb"
+    },
+    {
+      "path": "CORRECTIF_PETITE_FENETRE_PLEIN_ECRAN_21NOV.md",
+      "sha256": "c327b23f7fd62285dda9c64f5ede8cc00ec24571253ee76087e5ed7ca55ce1bf"
+    },
+    {
+      "path": "CORRECTIF_QR_3_CARTES_22NOV.md",
+      "sha256": "c51d06104a5a6cf79518d4cec4250370bcfe7bfbe4668738e3aee3da595895cb"
+    },
+    {
+      "path": "CORRECTIF_ROTATION_PAYSAGE_23NOV.txt",
+      "sha256": "cb2b7bb1b39f403080fad0a1307bc965e91d334b942f0b42879488234f564293"
+    },
+    {
+      "path": "CORRECTIF_SIGNATURE_COMPTE_GRATUIT_23NOV.md",
+      "sha256": "2b0443ea81579b83902d127a6661de5506fa17fb29aa55b12598bbc1467047da"
+    },
+    {
+      "path": "CORRECTIF_WIFI_21_11_2026.md",
+      "sha256": "2c9813b42655bce76c56a45bc578f2ffcf013ffd3d0875dbe979a7dff3795466"
+    },
+    {
+      "path": "CORRECTION_XCODE_20_11_2026.txt",
+      "sha256": "b064e66f5d83587e405cbff6c4bb0b406408235a90f5461e919a755e327696dd"
+    },
+    {
+      "path": "CURSEUR_TRIANGLE_3_CARTES_22NOV.txt",
+      "sha256": "36d7b09f2abe60ad08e9cf0db3316b8f578eaf02f89ceb2995c98efffa57112e"
+    },
+    {
+      "path": "DESIGN_ECRAN_ACCUEIL_ICONE_22NOV.md",
+      "sha256": "9cdb4e436a879ed41a7932b959fab3acf5734cbd2fa8c36233dfb81cff36d0a3"
+    },
+    {
+      "path": "DIAGNOSTIC_TFT_RETOUR_MOTO_22NOV.md",
+      "sha256": "826f8627cb3b140271794d25b7e21b02f1cc3a68c0265446a11d4ef39ffcdab1"
+    },
+    {
+      "path": "Double_Interface_OsmAnd.xcworkspace/contents.xcworkspacedata",
+      "sha256": "8264127c2ba6b49ecd884286357bf499b8dc72e398ed6cfc178a3d0012759585"
+    },
+    {
+      "path": "ECRAN_VERROUILLE_UNE_CARTE_22NOV.md",
+      "sha256": "a833ee1724cafb96fa7d0dae6b7c570457d14e9776025256f7153db9dc31fcfe"
+    },
+    {
+      "path": "ETAPE_OSMAND_COMPLET.md",
+      "sha256": "dfdb92e79a1d92832cf11ce1142037b371fcd448c57d3204ff27f8287e1a0641"
+    },
+    {
+      "path": "FENETRE_TFT_SANS_BOUTONS_22NOV.md",
+      "sha256": "1752624cdd28e5a1c7e3f61ade437c8aad093c55c975d0dbcab082d6183edb00"
+    },
+    {
+      "path": "FINALISATION_NAVIGATION_22NOV.md",
+      "sha256": "c31187bae4e8425f4532146b05f822c0c4e64c71317e5560993b0d4fa67ab94c"
+    },
+    {
+      "path": "GUIDAGE_GPX_HORS_LIGNE_22NOV.md",
+      "sha256": "937d614b8e52dbca7376007646b8c4fd6ab93bd2dac7eb69f2d50da737458e02"
+    },
+    {
+      "path": "INTEGRATION_OSMAND_SOURCE_OFFICIELLE.md",
+      "sha256": "39f031bb0e342a9cc8980047cc1d8a12e2c849de2466794714407b35d881e967"
+    },
+    {
+      "path": "KoveMirrorUploadExtension/Info.plist",
+      "sha256": "c0a51ec13f0988bcb09118433c905046dbcfcd5bb9383c8f513b46a9db560eb3"
+    },
+    {
+      "path": "LISEZ_MOI_DABORD.txt",
+      "sha256": "94bb067db71c23365fa6d6ccf55db29ecf16baad230da10ed50d8613285b8179"
+    },
+    {
+      "path": "LISEZ_MOI_WIFI_3_CARTES_21NOV.txt",
+      "sha256": "19a3f0d254cb908da8639c313ff53ac3694f87204c04776aabe572d985cd5a40"
+    },
+    {
+      "path": "LOGO_VERT_DEMARRAGE_3S_TFT_22NOV.md",
+      "sha256": "14ab2fdbfefc8edb9d67503f5511b8047b91dbfec1a52e0cc2bcc88ef6d7e94a"
+    },
+    {
+      "path": "NOMS_TRANSPARENTS_SUR_3_CARTES_22NOV.md",
+      "sha256": "2371e035c545ed6295eee32cde29d34a742e4058fdea99756f3fa774d1fd3bef"
+    },
+    {
+      "path": "NOTICE_CARTES_4_SECONDES.md",
+      "sha256": "677d7c27d42270f60b255e3d15a8f7d44bfa4d603c9dd6dd2a001e06349cff62"
+    },
+    {
+      "path": "NOTICE_WIZE_WAZE.md",
+      "sha256": "eab272f2d78067a0614495b328aadf4aae42dcdaae2bf5d0defb18043f734c35"
+    },
+    {
+      "path": "NOUVEAUX_NOMS_RIV_23NOV.md",
+      "sha256": "f0f3c962257829d5568841d27f8de05a6de1c1ba39b22a30ff8436960dcdb80d"
+    },
+    {
+      "path": "OSMOND_RELIEF_AUTO_SANS_BOUTONS_22NOV.md",
+      "sha256": "ad581277775237bea78858601295961ec652472b060b464da51c094cb1a27bb8"
+    },
+    {
+      "path": "OSMOND_TOPO_AUTOMATIQUE_22NOV.md",
+      "sha256": "d5f3660c4099eddd2f4af7d55d5d022301c442b1c90dbeac0dcc1bf402e1e6c8"
+    },
+    {
+      "path": "OUVRIR_CE_PROJET.txt",
+      "sha256": "29b653ce291d7e6a07147fecac5a58bb9cf355e3e20c70d6ae2b97c76ace9006"
+    },
+    {
+      "path": "PromotionIcons/CupOfGas_1024x1024.jpg",
+      "sha256": "bbf31ccc520572d3e884ad5f01efe9f0344a0e1cc6b3caff1442ae9d72e00ef3"
+    },
+    {
+      "path": "PromotionIcons/JarOfGas_1024x1024.jpg",
+      "sha256": "ffab599f9e52a73caa74f9d4a2e5fe81156f8788ffa311401ca184af2f6b3937"
+    },
+    {
+      "path": "PromotionIcons/TankOfGas_1024x1024.jpg",
+      "sha256": "ca420978e0c67359007e3c37fd01822b91abf396e036ad41bf9ffe04f8dc9688"
+    },
+    {
+      "path": "RETIRER_TRACE_CARTE_23NOV.md",
+      "sha256": "b8aafa0b869f8856efd28c27a527ff0f5c149e9959be5019a4cb62e8615e90ae"
+    },
+    {
+      "path": "Recuperer_code_source_OsmAnd.command",
+      "sha256": "17e5a35d25bf7eaa98294129ee9381bdbde47d5c63968c97edb4b8d93cee26a6"
+    },
+    {
+      "path": "References_Design/Maquette_Navigation_BLEU_TFT_ORANGE_REFERENCE.png",
+      "sha256": "ea0618692ea19c7d11c729f6f2284569c4e14cef88f57209b2b154bf6e741e52"
+    },
+    {
+      "path": "References_Design/OsmAnd_cible.png",
+      "sha256": "db4d1ca3af07c225e0cb07142647893cc0bf71966da13f22df574d76b982dcb1"
+    },
+    {
+      "path": "References_Design/Visuels_valides_22NOV/00_Apercu_3_visuels.png",
+      "sha256": "0016806331e4c6fc5d3e9438ef288c8c1c2f25cd31e1a0b7e8974ba27fc77c88"
+    },
+    {
+      "path": "References_Design/Visuels_valides_22NOV/01_Icone_validee.jpg",
+      "sha256": "1fef88cad99f93ca437c7c107c5e1170adf763a73922f5b9cb605043ec9db0ea"
+    },
+    {
+      "path": "References_Design/Visuels_valides_22NOV/02_Demarrage_valide.png",
+      "sha256": "ef4b87e44db6cec77e3787a2759cebaf56747ffd850ceca09850a64f2c04eb24"
+    },
+    {
+      "path": "References_Design/Visuels_valides_22NOV/03_Accueil_logo_vert_blanc_valide.png",
+      "sha256": "1d9b08ebc38bd405267d50e29582a5453d928af312c616402810b9fc1a2a286f"
+    },
+    {
+      "path": "References_Design/Visuels_valides_22NOV/LISEZ_MOI.md",
+      "sha256": "a57c8d6d39b79a2486cf744dc2c816df7b7abf38c48cd4da2671f97ab0708e7b"
+    },
+    {
+      "path": "References_Design/Wize_cible.png",
+      "sha256": "32f375525aa1533e652e380f2ed7655129950ddf28bf4fab88d16d181142d1ef"
+    },
+    {
+      "path": "References_Design/Wukuluc_cible.png",
+      "sha256": "d849189e040b3d89a5cb8806e68ab5009333ccdfcaf1cb296a7bc2113ce4dd53"
+    },
+    {
+      "path": "SUIVI_AVANCEMENT_ET_CONTROLES_ORAUX_22NOV.md",
+      "sha256": "65180883ea1e452869711e8f3eb39cfb6f17ce7f3a1675f0155640ffd2ee0a1b"
+    },
+    {
+      "path": "TEST_TRIANGLE_3_CARTES_22NOV.md",
+      "sha256": "91c1515a0dfb1ba7c61a46b2d61508f1264637fc0ebc9e36e9554a6233bb280e"
+    },
+    {
+      "path": "VERIFICATION_WIZE_22NOV.json",
+      "sha256": "c384f8a7801c4481dc1987d61a87b1fb4aa158e125d31b29425674d1aed8a71a"
+    },
+    {
+      "path": "WIZE_TRAFIC_PARTAGE_ALERTES_22NOV.md",
+      "sha256": "07788be5cdc0cac827fbfb884101487adccb7bae5a93687b20a8d122398a01d6"
+    },
+    {
+      "path": "WUKULUC_PARCOURS_PARTAGE_23NOV.md",
+      "sha256": "e9812a4b91aa87970f8213d8d0a395de537926c9ef723fe2921c4a77a959a688"
+    },
+    {
+      "path": "scripts/create-mockups.py",
+      "sha256": "9c6c6c6494af774a1fb261694f0f5b0151374fa2ce8be34c20232077cc67b250"
+    },
+    {
+      "path": "KoveMirror/LaunchScreen.storyboard",
+      "sha256": "eeecbfe86345b452a83d1d71ca4c306b5a94850a07e9a44f4d9f74536862a862"
+    },
+    {
+      "path": "VERIFICATION.json",
+      "sha256": "f3592fe465f12b5cacd94be433410d4bfb1ac246a768fc19b5c4f08e6a1c1345"
+    },
+    {
+      "path": "VERIFICATION_OFFLINE_21NOV.json",
+      "sha256": "e50a9c98578ac9006dd4b6bb512a506dde33ca9e54262a594e47d00566ee8e03"
+    },
+    {
+      "path": "UPSTREAM_README.md",
+      "sha256": "43640f682c4219f5b89a07ad1e3b57c45a7c3fc64626f711a0a6cde55b26fdea"
+    },
+    {
+      "path": "Kove broadcast extension/RivetIcon60x60@2x.png",
+      "sha256": "2f09dba5372d16ba4a25ff693b0311ad6af7531645fe5c462c03c06c89fd5fe8"
+    },
+    {
+      "path": "Kove broadcast extensionSetupUI/RivetIcon60x60@2x.png",
+      "sha256": "2f09dba5372d16ba4a25ff693b0311ad6af7531645fe5c462c03c06c89fd5fe8"
+    },
+    {
+      "path": "Kove broadcast extension/RivetIcon60x60@3x.png",
+      "sha256": "c4da3dea457e1713cf6339b4769069c06dfc57dd5281a0d25f1c90f0a4338413"
+    },
+    {
+      "path": "Kove broadcast extensionSetupUI/RivetIcon60x60@3x.png",
+      "sha256": "c4da3dea457e1713cf6339b4769069c06dfc57dd5281a0d25f1c90f0a4338413"
+    },
+    {
+      "path": "Kove broadcast extension/RivetIcon76x76.png",
+      "sha256": "811b681f6e85965e67d719ae611bb7789c0015e128f934af893e903bb739df2b"
+    },
+    {
+      "path": "Kove broadcast extensionSetupUI/RivetIcon76x76.png",
+      "sha256": "811b681f6e85965e67d719ae611bb7789c0015e128f934af893e903bb739df2b"
+    },
+    {
+      "path": "Kove broadcast extension/RivetIcon76x76@2x.png",
+      "sha256": "5fd4db399ba518f11e3b96b17f29380a6bb2e799c937083570739e4441e2a508"
+    },
+    {
+      "path": "Kove broadcast extensionSetupUI/RivetIcon76x76@2x.png",
+      "sha256": "5fd4db399ba518f11e3b96b17f29380a6bb2e799c937083570739e4441e2a508"
+    },
+    {
+      "path": "Kove broadcast extension/RivetIcon83.5x83.5@2x.png",
+      "sha256": "8eba666d61cf209a09cbe5f522409260afa1a44e0cbd8e0df2d85189723a0538"
+    },
+    {
+      "path": "Kove broadcast extensionSetupUI/RivetIcon83.5x83.5@2x.png",
+      "sha256": "8eba666d61cf209a09cbe5f522409260afa1a44e0cbd8e0df2d85189723a0538"
+    }
+  ]
+}
