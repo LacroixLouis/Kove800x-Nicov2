@@ -374,8 +374,10 @@ class ProjectUpdateTests(unittest.TestCase):
         self.removed = ["KoveMirror/FirstObsolete.swift", "KoveMirror/SecondObsolete.swift"]
         self.add("KoveMirror/Connection/BleController.swift", b"updated controller", b"old controller")
         unlink = Path.unlink
+        second_resolved = second.resolve()
         def fail_second(path, *args, **kwargs):
-            if path == second:
+            # macOS may use /var and /private/var for the same temporary file.
+            if path.resolve() == second_resolved:
                 raise OSError("simulated deletion failure")
             return unlink(path, *args, **kwargs)
         with patch.object(Path, "unlink", fail_second):
